@@ -1,0 +1,20 @@
+{
+  "name": "cedict-line-parser-js",
+  "version": "0.1.0",
+  "description": "Parses a single CEDICT line",
+  "main": "./obj.js",
+  "scripts": {
+    "test": "node ./test/test1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pffy/cedict-line-parser-js.git"
+  },
+  "keywords": ["cedict","parser","cc-cedict","validation"],
+  "author": "The Pffy Authors (https://pffy.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pffy/cedict-line-parser-js/issues"
+  },
+  "homepage": "https://github.com/pffy/cedict-line-parser-js#readme"
+}
