@@ -16,7 +16,7 @@ console.time('speed1');
 const str1 = '木衛三 木卫三 [mu4 wei4 san1] /Ganymede [moo2]/'; console.log(str1);
 console.log(CedictLineParser.parse(str1));
 console.timeEnd('speed1');
-console.log('');
+console.log('...');
 
 // invalid CEDICT line
 console.time('speed2');
@@ -24,7 +24,7 @@ const str2 = '木衛三 木卫三 mu4 wei4 san1 /Ganymede [moo2]/';
 console.log(str2);
 console.log(CedictLineParser.parse(str2));
 console.timeEnd('speed2');
-console.log('');
+console.log('...');
 
 // valid CEDICT line, multiple definitions
 console.time('speed3');
@@ -33,5 +33,5 @@ console.log(str3);
 console.log(CedictLineParser.parse(str3));
 console.log(CedictLineParser.parse(str3));
 console.timeEnd('speed3');
-console.log('');
+console.log('...');
 
